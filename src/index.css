@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+body{
+    background: black;
+    color: white;
+}
+
+.splide__pagination {
+  counter-reset: pagination-num;
+}
+
+.splide__pagination__page:before {
+  counter-increment: pagination-num;
+  content: counter( pagination-num );
+}
