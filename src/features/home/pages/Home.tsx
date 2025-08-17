@@ -8,6 +8,7 @@ const Home = () => {
   
   return (
     <div className="Home">
+      
       <MovieView data={data?.results}/>
     </div>
   );
