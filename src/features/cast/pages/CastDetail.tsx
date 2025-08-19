@@ -2,6 +2,7 @@ import { memo } from "react";
 import { useParams } from "react-router-dom";
 import { IMAGE_URL } from "../../../shared/const";
 import { useMovie } from "../../service/useMovie";
+import Logo from "../../../shared/assets/LOGOTYPE – BILETICK.svg"
 
 const CastDetail = () => {
   const { id } = useParams();
@@ -14,7 +15,7 @@ const CastDetail = () => {
   if (isLoading) {
     return (
       <div className="flex flex-row justify-between items-center ">
-        <img src={Logoo} alt=""  className="mx-auto mt-[10%] animate-spin"/>
+        <img src={Logo} alt=""  className="mx-auto mt-[10%] animate-spin"/>
       </div>
     );
   }

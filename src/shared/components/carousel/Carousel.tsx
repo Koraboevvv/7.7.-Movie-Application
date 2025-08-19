@@ -4,7 +4,7 @@ import { Thumbs } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/thumbs";
+import "swiper/css/Thumbs";
 import { api } from "../../api";
 
 interface Movie {
