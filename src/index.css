@@ -21,3 +21,16 @@ body{
   counter-increment: pagination-num;
   content: counter( pagination-num );
 }
+.custom-tabs .ant-tabs-tab {
+  color: white !important;
+}
+.custom-tabs .ant-tabs-tab:hover {
+  color: red !important;
+}
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: red !important;
+  font-weight: bold;
+}
+.custom-tabs .ant-tabs-ink-bar {
+  background: red !important;
+}

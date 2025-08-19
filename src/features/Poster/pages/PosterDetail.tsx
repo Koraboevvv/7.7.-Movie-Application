@@ -1,7 +1,7 @@
 import { memo } from 'react';
-import { useMovie } from '../../movies/service/useMovie';
 import MovieView from '../../movies/components/movie-view/MovieView';
 import Carousel from '../../../shared/components/carousel/Carousel';
+import { useMovie } from '../../service/useMovie';
 
 const PosterDetail = () => {
     const {getMovies} = useMovie()

@@ -1,6 +1,7 @@
 import { memo } from 'react';
-import { useMovie } from '../../movies/service/useMovie';
 import MovieView from '../../movies/components/movie-view/MovieView';
+import { useMovie } from '../../service/useMovie';
+import Carousel from '../../../shared/components/carousel/Carousel';
 
 const Home = () => {
   const {getMovies} = useMovie()
@@ -8,7 +9,7 @@ const Home = () => {
   
   return (
     <div className="Home">
-      
+      <Carousel/>
       <MovieView data={data?.results}/>
     </div>
   );
