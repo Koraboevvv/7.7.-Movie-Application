@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import MovieView from '../components/movie-view/MovieView';
+import { useMovie } from '../../service/useMovie';
 // import { data } from 'react-router-dom';
-import { useMovie } from '../service/useMovie';
 
 const Movies = () => {
     const {getMovies} = useMovie()

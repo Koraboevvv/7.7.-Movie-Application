@@ -5,7 +5,7 @@ export const api = axios.create({
 })
 
 api.interceptors.request.use((config) => {
-    const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwM2MzOTY2OTAyZmYwODM3NWVmMzcyZTg0YTEyZmMyNSIsIm5iZiI6MTc1NTE2Nzg3Ny40NjgsInN1YiI6IjY4OWRiYzg1OTQxYjczMmI2ZTFhM2RjMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kVieF87MfE2pfNfar8eMDBH609h4GVYc9LC4fD0zNCQ"
+    const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlM2U0Y2M0YzA2YzcwN2I0ODcyMWVlY2ZjMjE5MGVmYyIsIm5iZiI6MTcyODg3NzQyNi4yLCJzdWIiOiI2NzBjOTM3MmIxNWQ5N2IxYTkzY2UwZjIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.zZR_akio6SBvGWR4ThRbmrrWDuHZukkom4xo091rw8U"
 
     config.headers.Authorization = `Bearer ${token}`
 
